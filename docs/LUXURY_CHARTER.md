@@ -1,0 +1,2 @@
+# Majesté — Locked luxury positioning
+Majesté is an intentionally exclusive, royalty-symbolizing luxury celebration brand. It serves discerning high-end clientele rather than the mass market. Quality over quantity, exceptional craft, discretion, trustworthy execution, and effortless simplicity govern product and commercial choices. Premium pricing must be justified by real value, not artificial complexity. This is a binding brand directive, **not Decision 46**. The approved emblem must not be redesigned.
