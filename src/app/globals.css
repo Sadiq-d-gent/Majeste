@@ -11,3 +11,44 @@
 
 /* F03 detail editor and illustrative RSVP controls */
 .studio-settings-form{max-width:650px;margin:28px 0 35px}.studio-settings-form input{width:100%;padding:15px;border:1px solid #d9d3c8;background:#fff;font:normal 14px Arial,sans-serif}.studio-rsvp-label select{padding:10px 13px;border:1px solid #d9d3c8;background:#fff;color:#302d27;min-width:150px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+
+/* F04 guest journey — intentionally isolated from the organizer Studio */
+.guest-page{min-height:100vh;background:#11100f;color:#eee8dd;font-family:Georgia,serif}
+.guest-demo-banner{background:#282219;color:#ebd3a0;text-align:center;padding:12px 20px;font:12px/1.6 Arial,sans-serif;letter-spacing:.03em}
+.guest-topline{max-width:1100px;margin:auto;padding:34px 24px;display:flex;justify-content:space-between;gap:20px;align-items:center;font:11px Arial,sans-serif;letter-spacing:.18em}
+.guest-topline a{font:22px Georgia,serif;color:#e7d0a2;letter-spacing:.19em;text-decoration:none}
+.guest-shell{max-width:750px;margin:0 auto;padding:28px 24px 64px}
+.guest-progress{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-bottom:32px}
+.guest-progress button{border:1px solid #5d5242;background:transparent;color:#bfb5a6;padding:12px 16px;cursor:pointer;font:11px Arial,sans-serif;letter-spacing:.08em}
+.guest-progress button.selected,.guest-progress button[aria-current]{border-color:#d5b77e;color:#f8e6c0;background:#332a1d}
+.guest-card{background:#f6f0e5;color:#2b251f;text-align:center;padding:65px 65px 58px;box-shadow:0 22px 90px #0006}
+.guest-kicker{font:11px Arial,sans-serif;letter-spacing:.23em;color:#866f4a}
+.guest-emblem{font:76px Georgia,serif;margin:25px 0;color:#997746}
+.guest-intro,.guest-script,.guest-personal{font-size:16px;line-height:1.7;color:#62564a}
+.guest-card h1{font:normal clamp(42px,7vw,70px)/1.1 Georgia,serif;margin:18px 0 24px}
+.guest-card h1 em{font-weight:normal;color:#967443}
+.guest-event{font-size:20px;letter-spacing:.05em}
+.guest-rule{height:1px;background:#cbb99d;max-width:150px;margin:30px auto}
+.guest-date{font:19px/1.8 Georgia,serif}
+.guest-venue{font-size:17px}
+.guest-message{font-style:italic;line-height:1.7}
+.guest-personal{margin-top:25px}
+.guest-button{display:inline-flex;align-items:center;justify-content:center;gap:18px;background:#25201c;color:#f9efdd;border:1px solid #25201c;padding:17px 26px;margin-top:24px;cursor:pointer;font:12px Arial,sans-serif;letter-spacing:.08em;min-height:48px}
+.guest-button:disabled{opacity:.45;cursor:not-allowed}
+.guest-button-outline{background:transparent;color:#2b251f}
+.guest-flow{min-height:560px}
+.guest-description{font:17px/1.75 Georgia,serif;max-width:480px;margin:20px auto 28px}
+.guest-options{border:0;padding:0;display:grid;gap:12px;text-align:left;max-width:430px;margin:0 auto}
+.guest-options legend{text-align:center;padding-bottom:16px;font:12px Arial,sans-serif;letter-spacing:.1em}
+.guest-options label{display:flex;gap:14px;align-items:center;border:1px solid #c7b9a3;padding:18px;cursor:pointer;font:15px Arial,sans-serif}
+.guest-options label.active{border-color:#7d5b2f;background:#ede2d0}
+.guest-options input{accent-color:#7d5b2f}
+.guest-muted{font:12px/1.7 Arial,sans-serif;color:#776b5d;margin:22px auto;max-width:470px}
+.guest-pass-placeholder{border:2px dashed #aa9678;background:#ebe1d1;padding:40px 18px;margin:28px auto;max-width:370px;display:grid;gap:16px}
+.guest-pass-placeholder span{font:12px Arial,sans-serif;letter-spacing:.2em}
+.guest-pass-placeholder strong{font:25px Georgia,serif;color:#695237}
+.guest-pass-placeholder p{font:11px Arial,sans-serif;letter-spacing:.1em}
+.guest-footer-note{text-align:center;color:#aa9780;font:10px Arial,sans-serif;letter-spacing:.18em;margin-top:40px}
+.guest-page button:focus-visible,.guest-page a:focus-visible,.guest-page input:focus-visible{outline:3px solid #b99454;outline-offset:3px}
+@media(max-width:600px){.guest-topline{padding:24px 18px;flex-direction:column}.guest-shell{padding:20px 12px 40px}.guest-card{padding:45px 22px}.guest-progress{gap:6px}.guest-progress button{padding:12px 10px;font-size:10px}.guest-flow{min-height:auto}}
