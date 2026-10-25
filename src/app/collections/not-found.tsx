@@ -1,0 +1,1 @@
+import Link from "next/link";export default function NotFound(){return <main className="shell subhero"><div className="eyebrow">Collection unavailable</div><h1>Not found.</h1><p>That collection is not available in our curated selection.</p><Link className="button" href="/collections">Return to collections →</Link></main>}
