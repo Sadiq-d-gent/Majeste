@@ -1,0 +1,2 @@
+import Link from "next/link";
+export function SiteHeader({dark=false}:{dark?:boolean}){return <header className="shell"><div className="top" style={{borderColor:dark?"#e7e3d9":"rgba(255,255,255,.2)"}}><Link className="wordmark" href="/" aria-label="Majesté home">MAJESTÉ</Link><nav className="nav" aria-label="Primary navigation"><Link href="/collections">Collections</Link><Link className="optional" href="/#experience">The Experience</Link><Link className="optional" href="/journal">Journal</Link><Link href="/studio">Studio ↗</Link></nav></div></header>}
